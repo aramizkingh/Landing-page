@@ -1,0 +1,539 @@
+*{
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+}
+body{
+    background: radial-gradient(white,white,white);
+    font-family: sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+/*header-section*/
+.header-section{
+    background:radial-gradient(circle at 70% 50%, rgba(59,130,246,0.2),transparent 40%),#020617;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #020617;
+    padding: 5px 15px;
+    width: 100%;
+    position:fixed;
+}
+#brand{
+    display: flex;
+    gap:10px;
+}
+#brand-icon{
+    color: white;
+    background:radial-gradient(#3b82f6,#2563eb);
+    padding: 15px 15px;
+    height: 50px;
+    border-radius: 10px;
+}
+#brand-name{
+    line-height: 0;
+    position: relative;
+    bottom: 4px;
+}
+#brand-name p{
+    position:relative;
+    right: 37px;
+    color:rgba(255,255,255,0.5);
+}
+#nav-links{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+#nav-links a{
+    color:white;
+    text-decoration: none;
+}
+#nav-links a:hover{
+    color:#3b82f6;
+    text-decoration: underline;
+}
+#nav-button{
+    display:flex;
+    gap: 10px;
+}
+#moon-icon{
+    background: rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.05);
+    border-radius: 50%;
+    height:35px;
+    width:35px;
+    padding:10px; 
+}
+#nav-getstartedbutton a{
+    color:white;
+    text-decoration: none;
+}
+#nav-getstartedbutton{
+    border:solid 1px #3b82f6;
+    background: radial-gradient(#2563eb,#3b82f6);
+    border-radius:15px;
+    padding: 7px 10px;
+    height: 30px;
+    transition: 0.3s;
+}
+#nav-getstartedbutton:hover{
+    transform:scale(1.05);
+}
+/*hero-section*/
+#hero-section{
+    padding: 80px 50px;
+}
+.photo img{
+    position:relative;
+    right:40px;
+    width: 40%;
+    float: right;
+    border-radius: 15px;
+    height: 70%;
+}
+#overall{
+    position:absolute;
+    border-radius:13px;
+    width:150px;
+    height:100px;
+    z-index:1;
+    right:447px;
+    top:100px;
+}
+#happyclients{
+    position:absolute;
+    border-radius:15px;
+    width:190px;
+    height:70px;
+    z-index:1;
+    top:373px;
+}
+.hero-content{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    left:49px;
+}
+#business{
+    position:relative;
+    right:94px;
+    color:royalblue;
+}
+#hero{
+    position:relative;
+    right:10px;
+}
+#hero-contentp{
+    position:relative;
+    right:17px;
+}
+#grow-business{
+    border-radius:30px;
+    color:white;
+    background:linear-gradient(90deg,navy,#2563eb,#3b82f6,navy);
+}
+.hero-content h1{
+    position:relative;
+    right: 67px;
+    line-height: 1.2;
+}
+.hero-content p{
+    position:relative;
+    bottom:20px;
+    right:6px;
+    Color:rgba(255,255,255,0.5);
+}
+.hero-buttons {
+    display:flex;
+    gap:20px;
+}
+#Get-Started{
+    background: radial-gradient(#2563eb,#3b82f6);
+    padding:20px;
+    height: 50px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+#Get-Started:hover{
+    transform:scale(1.05);
+}
+#Explore-Services{
+    padding:20px;
+    height:50px;
+    border-radius:15px;
+    border:1px solid rgba(255,255,255,0.2);
+    text-decoration:none;
+    display:flex;
+    gap:10px;
+    color:white;
+}
+#Explore-Services:hover{
+    background: radial-gradient(#2563eb,#3b82f6);
+    transform:scale(1.05);
+}
+.hero-footer{
+    display:flex;
+    position:relative;
+    top:40px;
+    gap:20px;
+}
+.hero-footer img{
+    gap:0;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    line-height:0;
+}
+.trusted-section{
+    position:relative;
+    bottom:15px;
+    background: radial-gradient(lightblue);
+    backdrop-filter: blur(10px);
+    background-color: white;
+    padding:5px 10px;
+    text-align: center;
+    color:rgba(255,255,255,5);
+    
+}
+.trusted-company{
+    position:relative;
+    display:flex;
+    width:100%;
+    gap:120px;
+    left:80px;
+}
+/*SERVICES-SECTION*/
+#services strong{
+    color:royalblue;
+}
+.services{
+    display: flex;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.05);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    border-radius: 15px;
+    padding:20px;
+}
+.our-services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+    padding:5px 50px;
+}
+.service-description a{
+    text-decoration: none;
+    color: royalblue;
+    font-weight: bold;
+}
+.service-icon{
+    position: relative;
+    color:#3b82f6;
+    font-weight: bold;
+    background: lightblue;
+    width:50px;
+    height: 50px;
+    border-radius: 15px;
+    top:35px;
+    padding:15px 10px;
+}
+/*EXPERIENCE-SECTION*/
+.experience{
+    display: flex;
+    background:radial-gradient(circle at 70% 50%, rgba(59,130,246,0.2),transparent 40%),#020617;
+    color:white;
+    padding:20px 20px;
+    border-radius:15px;
+    margin: 20px 40px; 
+    gap:80px;
+}
+.experience i{
+    color:royalblue;
+}
+.experience .value{
+    font-weight: bold;
+    font-size: 25px;
+}
+#getstarted{
+    text-decoration: none;
+    color:white;
+    background: royalblue;
+    padding:5px 15px;
+    border-radius:15px;
+}
+/*PRICING-SECTION*/
+#pricing-section{
+    padding:5px 50px;
+}
+#pricing-section .pricing{
+    color:royalblue;
+    font-weight: bold;
+}
+.plan{
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: brul(10px);
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    border-radius:15px;
+}
+.pricing-plans{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+.plan a{
+    color: #020617;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px 80px;
+    border-radius:15px;
+}
+.plan-button{
+    font-weight: bold;
+}
+.plan-p{
+    font-weight: bold;
+}
+.plan button{
+    position:relative;
+    color:white;
+    background: radial-gradient(#2563eb,#3b82f6);
+    border-radius: 15px;
+    bottom:12px;      
+    border: 0px;
+    padding: 5px 5px;
+}
+.plan #pro{
+    border:2px solid royalblue;
+    border-radius:15px;
+}
+.plan i{
+    color:royalblue;
+}
+#pro a{
+    background: royalblue;
+}
+.pro-plandesign{
+    position:relative;
+    bottom:30px;
+}
+/*CONTACT-SECTION*/
+.contact-information{
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: brul(10px);
+    border-radius: 15px;
+    border:1px solid rgba(255,255,255,0.5);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    width:350px;
+    padding: 10px 20px;
+    height:360px;
+}
+.email, .phone-number, .location, .Follow-Us{
+    display:flex;
+    gap:10px;
+    padding:10px 20px;
+}
+.contact-icon i{
+    background: lightblue;
+    padding:15px;
+    border-radius:15px;
+    color:royalblue;
+}
+.description{
+    line-height: 1.2px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#EMAIL{
+    line-height: 1px;
+    position:relative;
+    bottom:7px;
+}
+#EMAIL h3{
+    position:relative;
+    right:52px;
+}
+#whatsApp{
+    position:relative;
+    line-height: 1.2px;
+}
+#LOCATION{
+    position:relative;
+    line-height: 1px;
+}
+#LOCATION h3{
+    position:relative;
+    right:50px;
+}
+#followus h3{
+    position:relative;
+    right:40px;
+}
+.userInput-information{
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: brul(10px);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    border-radius:15px;
+    width:800px;
+}
+#contact-section{
+    padding:5px 50px;
+}
+.contact-user{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+}
+.description{
+  display:flex;
+  flex-direction: column;  
+  gap:5px;
+}
+.description i{
+    color:royalblue;
+    display: flex;
+    border-radius: 50%;
+    border:1px solid royalblue;
+    padding:7px;
+}
+.info-icons{
+    display:flex;
+    gap:15px;
+}
+.inputs{
+    display:flex;
+    gap: 200px;
+    padding:10px 30px;
+}
+.user-name input{
+    position:relative;
+    padding:10px 50%;
+    left:10px;
+}
+.user-email input{
+    position:relative;
+    padding:10px 50%;
+    left:25px;
+}
+.textarea{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    left:40px;
+}
+.textarea a{
+    color:white;
+    background-color: royalblue;
+    text-decoration: none;
+    padding:20px;
+    border-radius:15px;
+    position:relative;
+    top:15px;
+}
+/*FOOTER-SECTION*/
+.footer-section{
+    background:radial-gradient(circle at 70% 50%, rgba(59,130,246,0.2),transparent 40%),#020617;
+    color:white;
+    width:100%;
+    display:flex;
+    padding:10px 60px;
+    justify-content: space-between;
+    gap:30px;
+    margin-top: 20px;
+}
+.footer-right{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-right p{
+    color:rgba(255,255,255,0.5);
+}
+#second{
+    position:relative;
+    right:14px;
+}
+#third{
+    position:relative;
+    right:115px;
+}
+#right-icon{
+    color:white;
+    background: radial-gradient(#3b82f6,#2563eb);
+    padding:15px 15px;
+    height:50px;
+    border-radius:15px;
+}
+.footer-icons{
+    display:flex;
+    gap:15px;
+    position:relative;
+    top:10px;
+}
+.footer-icons i{
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: brul(10px);
+    padding:15px;
+    border-radius:50%;
+    border:solid 1px rgba(255,255,255,0.1);
+}
+.quick-links{
+    display: grid;
+    gap:15px;
+}
+.quick-links a{
+    color:rgba(255,255,255,0.5);
+    text-decoration:none;
+}
+.quick-links a:hover{
+    text-decoration: underline;
+    color:royalblue;
+}
+#subscribe-button{
+    position:relative;
+    top:40px;
+}
+#subscribe-button a{
+    color:white;
+    text-decoration:none;
+    background: radial-gradient(#2563eb,#3b82f6);
+    border-radius:15px;
+    padding:20px 60px;
+}
+footer{
+    background: #020617;
+    color:rgba(255,255,255,0.5);
+    margin-bottom: 0px;
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+#footer-input{
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: brul(10px);
+    border:1px solid rgba(255,255,255,0.1);
+    padding:20px 18px;
+    border-radius:15px;
+    color:rgba(255,255,255,0.5);
+}
+#footer-services,#newsletterp{
+    color:rgba(255,255,255,0.5);
+}

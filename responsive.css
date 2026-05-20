@@ -1,0 +1,90 @@
+/*RESPONSIVE DESIGN*/
+/*small phones*/
+@media(max-width:390px){
+    .nav-bar{
+        display:flex;
+        flex-direction: column;
+        line-height: 1px;
+        font-size: 10px;
+    }
+    #brand{
+        display:flex;
+        gap:20px;
+        position:relative;
+        right:5px;
+    }
+    #brand-name{
+        position:relative;
+        top:5px;
+    }
+    #brand-name h2{
+        position:relative;
+        right:11px;
+    }
+    #nav-button{
+        position:relative;
+        left:230px;
+        bottom:50px;
+        font-size:9px;
+    }
+    #nav-links{
+        position:relative;
+        justify-content: center;
+    }
+    /*hero-section*/
+    #hero-section{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .photo #profilephoto{
+        position:relative;
+        height:200px;
+        width:250px;
+        left:15px;
+    }
+    .photo #happyclients{
+        position:absolute;
+        height:49px;
+        width:100px;
+        opacity:100%;
+        right:10px;
+        top:250px;
+    }
+    .photo #overall{
+        position:absolute;
+        left:10px;
+        height:49px;
+        width:100px;
+    }
+    .hero-content h1{
+        width:400px;
+        padding-right: 69px;
+    }
+    #hero{
+        line-height: 1.2;
+        width: 300%;
+        position:relative;
+        right:70px;
+    }
+    #hero-contentp{
+        position:relative;
+        left:2px;
+    }
+    #Get-Started{
+        position:relative;
+        right:70px;
+        padding:10px 40px;
+        display:flex;
+    }
+    #Explore-Services{
+        position:relative;
+        right:70px;
+        padding:10px 40px;
+    }
+    .hero-footerimg{
+        display:flex;
+        position:relative;
+        top:50px;
+        right:60px;
+    }
+}
