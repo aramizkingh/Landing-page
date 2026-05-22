@@ -48,6 +48,12 @@
         top:20px;
         right:70px;
     }
+    #p{
+        position:relative;
+        top: 25px;
+        right: 70px;
+        width:200%;
+    }
     /*hero-section*/
     #hero-section{
         display:flex;
@@ -225,5 +231,9 @@
         position:relative;
         right:90px;
         top:15px;
+    }
+    #p{
+        position:relative;
+        right:85px;
     }
 }
