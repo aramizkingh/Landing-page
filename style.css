@@ -12,6 +12,9 @@ body{
     margin-bottom: 0;
     overflow-x: hidden;
 }
+html{
+    overflow-x: hidden;
+}
 /*header-section*/
 .header-section{
     background:radial-gradient(circle at 70% 50%, rgba(59,130,246,0.2),transparent 40%),#020617;
