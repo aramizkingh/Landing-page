@@ -16,6 +16,7 @@
         flex-direction: column;
         line-height: 1px;
         font-size: 10px;
+        position:fixed;
     }
     #brand{
         display:flex;
@@ -197,6 +198,9 @@
         position:relative;
         left: 207px;
         font-size:8px;
+    }
+    .nav-bar{
+        position:fixed;
     }
     /*hero section*/
     #Get-Started{
