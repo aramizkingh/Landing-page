@@ -1,5 +1,5 @@
 /*RESPONSIVE DESIGN*/
-/*small phones*/
+/*large phones*/
 @media(max-width:414px){
     *{
         box-sizing: border-box;
@@ -7,7 +7,7 @@
         margin-right: 0px;
     }
     body{
-        overflow-x: 0;
+        overflow-x:hidden;
         margin-left: 0;
         margin-right: 0;
     }
@@ -29,7 +29,7 @@
     }
     #brand-name h2{
         position:relative;
-        right:11px;
+        right: 14px;
     }
     #nav-button{
         position:relative;
@@ -40,6 +40,7 @@
     #nav-links{
         position:relative;
         justify-content: center;
+        right:40px;
     }
     /*hero-section*/
     #hero-section{
@@ -179,5 +180,28 @@
     }
     .footer-right p{
         width:300px;
+    }
+}
+@media(max-width:360px){
+    /*nav-bar section*/
+    #nav-button{
+        position:relative;
+        left: 207px;
+        font-size:8px;
+    }
+    /*hero section*/
+    .hero-content h1{
+        font-size:30px;
+        padding-right: 90px;
+    }
+    #Get-Started{
+        position:relative;
+        right:85px;
+        padding:8px 38px;
+    }
+    #Explore-Services{
+        position:relative;
+        right:92px;
+        padding:8px 38px;
     }
 }
