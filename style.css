@@ -446,7 +446,7 @@ html{
     align-items: flex-start;
     left:40px;
 }
-.textarea a{
+.textarea button{
     color:white;
     background-color: royalblue;
     text-decoration: none;
@@ -454,6 +454,7 @@ html{
     border-radius:15px;
     position:relative;
     top:15px;
+    border:none;
 }
 /*FOOTER-SECTION*/
 .footer-section{
