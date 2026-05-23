@@ -14,6 +14,7 @@ body{
 }
 html{
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 /*header-section*/
 .header-section{
@@ -329,6 +330,8 @@ html{
 }
 #pro a{
     background: royalblue;
+    border: 1px solid royalblue
+    ;
 }
 .pro-plandesign{
     position:relative;
