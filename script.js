@@ -6,7 +6,9 @@ sendMessage.addEventListener("click", function(){
     console.log(name);
     console.log(email);
     console.log(message);
-    const userDetails = "my Name:" + name + "my Email:" + email + "Message:" + message;
-    const whatsappLink = "https://wa.me/255666019018?text=+userDetails";
+    const userDetails = "my Name:" + name +
+     "  my Email:" + email + 
+     "  Message:" + message;
+    const whatsappLink = "https://wa.me/255666019018?text="+userDetails;
     window.open(whatsappLink);
 });
